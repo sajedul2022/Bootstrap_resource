@@ -1,0 +1,49 @@
+.jumbotron.customheader {
+    background-color: #60adef;
+    height: 187px;
+    padding: 20px;
+    color: #fff;
+}
+
+.customHr {
+    margin: 0 0 15px 0;
+}
+
+.customStacked ul{
+	margin: 10px 0 10px 0;
+	border: 1px solid #ccc;
+}
+
+.customStacked li {
+    border-bottom: 1px solid #ccc;
+    padding: 6px;
+    margin: 5px 3px;
+}
+
+.cusBlank {
+    background-color: #337AB7;
+    /*padding: 10px !important;*/
+}
+
+.searchBox{
+    border: 1px solid #ccc;
+    padding: 6px;
+    margin-bottom: 15px;
+
+}
+.searchBox p{
+	color: #fff;
+	padding: 6px;
+	font-size: 16px;
+	/*font-weight: 600 ;*/
+	margin: 10px 0 10px 0;
+
+}
+
+.footer.cusBlank p {
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 600;
+}

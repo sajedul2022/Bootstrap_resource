@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+
+		
+		<div class="container">
+			<!-- Jumborton Here -->
+			<div class="jumbotron customheader">
+				<h1>IDB-BISEW</h1>
+				<p>IT SCHOLARSHIP PROJECT</p>
+			</div>
+			<!-- Menu tab Horizental -->
+			
+			<div class="row">
+				<div class="col-lg-11 col-lg-offset-1">
+					<ul class="nav nav-pills customHr">
+						<li class="active"><a data-toggle="tab" href="#home">HOME</a></li>
+						<li><a data-toggle="tab" href="#about">ABOUT US</a></li>
+						<li><a data-toggle="tab" href="#contact">CONTACT US</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- Menu tab Vertical  -->
+			<div class="row">
+				<div class="col-lg-3 col-lg-offset-1 customStacked">
+					<ul class="nav nav nav-pills nav-stacked dr ">
+						<li class="cusBlank">&nbsp;</li>
+						<li class=""><a data-toggle="tab" href="#home">HOME</a></li>
+						<li><a data-toggle="tab" href="#about">ABOUT US</a></li>
+						<li><a data-toggle="tab" href="#course">COURSES</a></li>
+						<li><a data-toggle="tab" href="#register">REGISTRATION</a></li>
+						<li><a data-toggle="tab" href="#require">REQUIREMENT</a></li>
+						<li><a data-toggle="tab" href="#contact">CONTACT US</a></li>
+					</ul>
+					<!-- serach -->
+					<div class="searchBox">
+						<p class="cusBlank"> SEARCH</p>
+						<div class="row">
+							<form class="form-inline" action="">
+								<div class="col-lg-8">
+									<div class="form-group">
+										<input type="search" class="form-control" id="search">
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<button type="submit" class="btn btn-default">Search</button>
+								</div>
+							</form>
+						</div>
+					</div>
+					
+				</div>
+				<!-- tab pills content -->
+				
+				<div class="col-lg-8">
+					<div class="tab-content">
+						<div id="home" class="tab-pane fade in active">
+							<h3>HOME</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+						<div id="about" class="tab-pane fade">
+							<h3>Menu 1</h3>
+							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</div>
+						<div id="course" class="tab-pane fade">
+							<h3>Menu 2</h3>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+						</div>
+						<div id="register" class="tab-pane fade">
+							<h3>Menu 3</h3>
+							<p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+						</div>
+						<div id="require" class="tab-pane fade">
+							<h3>Menu 3</h3>
+							<p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+						</div>
+						<div id="contact" class="tab-pane fade">
+							<h3>Contact US</h3>
+							
+							<form action="">
+								<div class="form-group">
+									<label for="inputdefault">Name</label>
+									<input class="form-control" id="inputdefault" type="text">
+								</div>
+								<div class="form-group">
+									<label for="inputdefault">Email</label>
+									<input class="form-control" id="inputdefault" type="Email">
+								</div>
+
+								<div class="form-group">
+									<label for="comment">Comment:</label>
+									<textarea class="form-control" rows="5" id="comment"></textarea>
+								</div>
+								<div class="form-group">
+									<label for="sel1">Default select list</label>
+									<select class="form-control" id="sel1">
+										<option selected="" disabled="">select list</option>
+										<option>Trouser</option>
+										<option>Blezer</option>
+										<option>Cort</option>
+									</select>
+								</div>
+								<button type="submit" class="btn btn-primary">Submit</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer class="footer cusBlank">
+				<p> &copy; Copyright By IDB-BISEW </p>
+			</footer>
+		</div>
+		
+		
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
